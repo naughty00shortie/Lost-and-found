@@ -9,13 +9,10 @@ TagManager:
   - Ground
   - Body
   - RUA
-  - RLA
   - LUA
-  - LLA
   - RUL
-  - RLL
   - LUL
-  - LLL
+  - NotUsedParts
   layers:
   - Default
   - TransparentFX
@@ -52,4 +49,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tongue
+    uniqueID: 580765995
     locked: 0

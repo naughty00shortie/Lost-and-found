@@ -9,6 +9,8 @@ public class Body : MonoBehaviour
     public Transform ULAPos;
     public Transform URLPos;
     public Transform ULLPos;
+    public GameObject tongue;
+    public Transform tonguepos;
     public static bool HeadIsattatched = false;
     public static bool URAIsattatched = false;
     public static bool ULAIsattatched = false;
@@ -25,6 +27,9 @@ public class Body : MonoBehaviour
 
                     collision.gameObject.transform.position = HeadPos.position;
                     collision.gameObject.transform.rotation = HeadPos.rotation;
+                    tongue.transform.position = tonguepos.position;
+                    tongue.transform.rotation = tonguepos.rotation;
+
                     gameObject.AddComponent<HingeJoint2D>();
                     GetComponent<HingeJoint2D>().connectedBody = collision.gameObject.GetComponent<Rigidbody2D>();
                     GetComponent<HingeJoint2D>().anchor = new Vector2(-0.6f, 4.346376f);
