@@ -28,6 +28,7 @@ public class Head : MonoBehaviour
  
         if (isdead)
         {
+                tongue.isattatched = false ;
                 countdown -= Time.deltaTime;
                 if (countdown <= 0f && !startedcount) 
                 {
@@ -37,6 +38,7 @@ public class Head : MonoBehaviour
 
 
         }
+        
 
     }
 }

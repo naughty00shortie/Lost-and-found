@@ -8,9 +8,13 @@ public class spikes : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<HingeJoint2D>() != null)
         {
-            Destroy(collision.gameObject.GetComponent<HingeJoint2D>());
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(collision.gameObject.transform.up * 500);
-            Head.isdead = true;
+          //  if (collision.gameObject.tag=="Head")
+            //{
+                Destroy(collision.gameObject.GetComponent<HingeJoint2D>());
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(collision.gameObject.transform.up * 500);
+                Head.isdead = true;
+            //}
+
         }
     }
 }

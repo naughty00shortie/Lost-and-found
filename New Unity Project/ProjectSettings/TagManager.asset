@@ -6,6 +6,16 @@ TagManager:
   tags:
   - Head
   - Spike
+  - Ground
+  - Body
+  - RUA
+  - RLA
+  - LUA
+  - LLA
+  - RUL
+  - RLL
+  - LUL
+  - LLL
   layers:
   - Default
   - TransparentFX

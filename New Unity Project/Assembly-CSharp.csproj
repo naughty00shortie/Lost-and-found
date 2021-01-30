@@ -63,7 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\Body.cs" />
     <Compile Include="Assets\scripts\Head.cs" />
+    <Compile Include="Assets\scripts\ULA.cs" />
+    <Compile Include="Assets\scripts\ULL.cs" />
+    <Compile Include="Assets\scripts\URA.cs" />
+    <Compile Include="Assets\scripts\URl.cs" />
     <Compile Include="Assets\scripts\camera.cs" />
     <Compile Include="Assets\scripts\spikes.cs" />
     <Compile Include="Assets\scripts\tongue.cs" />
