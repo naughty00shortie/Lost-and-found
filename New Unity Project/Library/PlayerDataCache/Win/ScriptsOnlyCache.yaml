@@ -12,8 +12,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -79,21 +77,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12560}
     - Class: 114
-      Script: {instanceID: 12630}
+      Script: {instanceID: 12618}
     - Class: 114
-      Script: {instanceID: 13822}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13844}
+      Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 14324}
+      Script: {instanceID: 13846}
     - Class: 114
-      Script: {instanceID: 14672}
+      Script: {instanceID: 14326}
     - Class: 114
-      Script: {instanceID: 14986}
+      Script: {instanceID: 14674}
     - Class: 114
-      Script: {instanceID: 15082}
+      Script: {instanceID: 14988}
     - Class: 114
-      Script: {instanceID: 17854}
+      Script: {instanceID: 15084}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -148,21 +146,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12560}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 13822}
+      Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 13896}
+      Script: {instanceID: 13898}
     - Class: 114
-      Script: {instanceID: 13952}
+      Script: {instanceID: 13954}
     - Class: 114
-      Script: {instanceID: 14058}
+      Script: {instanceID: 14060}
     - Class: 114
-      Script: {instanceID: 14204}
+      Script: {instanceID: 14206}
     - Class: 114
-      Script: {instanceID: 14324}
+      Script: {instanceID: 14326}
     - Class: 114
-      Script: {instanceID: 15082}
+      Script: {instanceID: 15084}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -446,6 +444,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
     className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scene
   - hash:
       serializedVersion: 2
       Hash: 5cc439bf63c0539d39588e69465ac2ab
@@ -764,12 +768,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: scene
   platform: 5
   scenePathNames:
   - Assets/Scenes/Intro.unity
