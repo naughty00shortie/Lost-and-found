@@ -21,7 +21,6 @@ public class tongue : MonoBehaviour
     void Update()
     {
 
-        
 
         mousepos = cam.ScreenToWorldPoint(Input.mousePosition);
         if (isattatched)

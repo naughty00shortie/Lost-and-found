@@ -460,6 +460,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &178251126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178251127}
+  m_Layer: 0
+  m_Name: LLAPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178251127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178251126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9120001, y: -0.21600008, z: 0.865242}
+  m_LocalScale: {x: 0.6142872, y: 0.53995115, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2122251086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &242165837
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +522,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.9319999, y: -1.1390002, z: 1.84}
   m_LocalScale: {x: 0.23867969, y: 0.42975467, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2076738685}
   m_Father: {fileID: 153689064}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -772,7 +803,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: -0.5030199, w: 0.8642748}
   m_LocalPosition: {x: -0.768, y: 0.8739999, z: 0.865242}
   m_LocalScale: {x: 0.4129148, y: 0.44566545, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1742171762}
   m_Father: {fileID: 153689064}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -60.4}
@@ -991,7 +1023,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: -0.13917309, w: 0.9902681}
   m_LocalPosition: {x: -0.25800002, y: -1.2360001, z: 3.54}
   m_LocalScale: {x: 0.23867969, y: 0.42975467, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 733662505}
   m_Father: {fileID: 153689064}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16}
@@ -1119,6 +1152,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &733662504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733662505}
+  m_Layer: 0
+  m_Name: LRLPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733662505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733662504}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.70800006, y: -2.5160003, z: 0.865242}
+  m_LocalScale: {x: 0.30118835, y: 0.35033625, z: 1}
+  m_Children: []
+  m_Father: {fileID: 542333715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &894502798
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,8 +2692,16 @@ MonoBehaviour:
   ULAPos: {fileID: 1446330789}
   URLPos: {fileID: 1919006686}
   ULLPos: {fileID: 894502799}
-  tongue: {fileID: 0}
-  tonguepos: {fileID: 0}
+  tongue: {fileID: 1115547077}
+  LRA: {fileID: 128107143}
+  LRL: {fileID: 1733759415}
+  LLA: {fileID: 1034088681}
+  LLL: {fileID: 939017962}
+  LRAPos: {fileID: 1742171762}
+  LRLPos: {fileID: 733662505}
+  LLAPos: {fileID: 178251127}
+  LLLPos: {fileID: 2076738685}
+  tonguepos: {fileID: 1893029869}
 --- !u!212 &1457806438
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3135,6 +3206,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1742171761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1742171762}
+  m_Layer: 0
+  m_Name: LRAPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1742171762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742171761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.248, y: -0.26600015, z: 0.865242}
+  m_LocalScale: {x: 0.6142872, y: 0.53995115, z: 1}
+  m_Children: []
+  m_Father: {fileID: 254578558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1893029868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3348,6 +3449,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2076738684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076738685}
+  m_Layer: 0
+  m_Name: LLLPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2076738685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076738684}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.214, y: -2.4560003, z: -0.18}
+  m_LocalScale: {x: 0.30118835, y: 0.35033625, z: 1}
+  m_Children: []
+  m_Father: {fileID: 242165838}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2122251085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3379,7 +3510,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0.5620834, w: 0.8270806}
   m_LocalPosition: {x: 1.3829999, y: 0.9909999, z: 0.28}
   m_LocalScale: {x: 0.4129148, y: 0.44566545, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 178251127}
   m_Father: {fileID: 153689064}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 68.4}

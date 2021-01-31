@@ -5,15 +5,21 @@ using UnityEngine;
 public class Head : MonoBehaviour
 {
     public Rigidbody2D rb2d;
-    public float force;
+   private float force;
     public Transform normall;
-    public static bool isdead;
+    public static bool isdead = false;
     private float countdown=2f;
     private bool startedcount = false;
 
      
     void Update()
     {
+        if (Body.HeadIsattatched)
+        {
+            force = 10000f;
+
+        }
+        else force = 500f;
         normall.position = transform.position;
         if (Input.GetKey("d"))
         {
