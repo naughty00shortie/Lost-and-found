@@ -8,8 +8,6 @@ public class scene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-
         StartCoroutine(waiter());
     }
 

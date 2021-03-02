@@ -10,7 +10,7 @@ public class spikes : MonoBehaviour
         if (collision.gameObject.GetComponent<HingeJoint2D>() != null)
         {
 
-           if (collision.gameObject.tag!="NotUsedParts")
+            if (collision.gameObject.tag != "NotUsedParts")
             {
                 Instantiate(particle, transform.position, transform.rotation);
                 Destroy(collision.gameObject.GetComponent<HingeJoint2D>());
@@ -40,7 +40,11 @@ public class spikes : MonoBehaviour
 
 
 
-}
+            }
+            else
+            {
+                
+            }
 
 
 
